@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="content">
+        
+    </div>
+    <button onclick="loadmore">loadmore</button>
+    <script>
+        var arr=["a","b","c","d","f","g","h"]
+
+function more() {
+    var maxresult=2;
+    for(var i=0;i<maxresult.length;i++){
+        $("#content").append("<div>"+arr[i+current]+"</div>")
+    }
+    current+=maxresult
+}
+more()
+
+    </script>
+    
+    
+
+
+   
+    <script src="app.js"></script>
+</body>
+</html>

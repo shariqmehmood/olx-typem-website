@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+}
+.form-control{
+    border: 2px solid black !important;
+    width: 350px !important;
+}
+.btn{
+    color: black !important;
+    background-color: white !important;
+    border: 8px solid cornflowerblue !important;
+    border-radius: 55px !important;
+    margin-left: 22px;
+    
+}
+.log{
+    padding-left: 10px;
+}
+
+.navbar {
+    border-bottom: 2px solid rgb(151, 149, 149);
+}
+.links{
+    color: black !important;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.links:hover{
+    color: cyan !important;
+}
+.link{
+    color: black !important;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.card{
+    display: inline-block !important;
+    width: 265px !important;
+    padding: 5px !important;
+}
+
+
+.bttn{
+    color: black;
+    background-attachment: white;
+    border :8px solid cornflowerblue;
+    border-radius: 55px;
+    margin-left:470px;
+    margin-top: 10px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    
+    padding: 50px;
+    
+}
+
+.linn{
+color: rgb(248, 245, 240);
+text-decoration: none;
+padding-left: 40px;
+margin-top: 10px;
+}
+
+.h1{
+    text-align: center;
+    margin-bottom: 30px;
+
+    
+}
+
+.h1:hover{
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+
+.linn:hover{
+color: blanchedalmond;
+text-decoration: underline;
+}
+
+
+
+
+
+.show1{
+    display: none;
+}
+
+
+.formbody{
+    background-color: rgb(226, 193, 102);
+    height: 600px;
+    
+   
+}
+
+.foor{
+    text-align: center;
+    align-items: center;
+    border: 2px dashed rgb(0, 0, 0);
+    height:200px;
+    width: 250px;
+    margin-left:380px;
+  
+    background-color: blanchedalmond;
+  
+}
+
+
+
+.goback{
+    color: rgb(14, 10, 4);
+    font-size: 30px;
+}
+.goback:hover{
+    color: black;
+    border: 2px solid black;
+}
+.btn1{
+    margin-left: 500px;
+    
+     color: black !important;
+    background-color: white !important;
+    border: 8px solid cornflowerblue !important;
+     border-radius: 55px !important;
+        
+}
